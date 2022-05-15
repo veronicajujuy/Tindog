@@ -16,7 +16,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- Font awsome -->
-    <script src="https://kit.fontawesome.com/8cb75f4971.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8cb75f4971.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- css -->
     <link rel="stylesheet" href="css/styles.css" />
@@ -48,7 +51,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="">Contact</a>
               </li>
@@ -66,11 +69,18 @@
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
-            <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
           </div>
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <img class="dog" src="images/iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
       </div>
@@ -79,14 +89,23 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
-
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <div class="row">
+        <div class="col-lg-4 item-features">
+          <i class="fa-solid fa-circle-check icons fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p class="p-features">So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4 item-features">
+          <i class="fa-solid fa-bullseye icons fa-4x"></i>
+          <h3>Elite Clientele</h3>
+          <p class="p-features">We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4 item-features">
+          <i class="fa-solid fa-heart icons fa-4x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p class="p-features">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
