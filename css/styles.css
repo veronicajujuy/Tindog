@@ -1,15 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1{
-    font-weight: bolder;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2{
-    font-family: 'Montserrat', sans-serif;
+h2 {
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -19,15 +13,21 @@ h3 {
     font-weight: bold;
 }
 
+.big-heading {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 .container-fluid {
     padding: 3% 10% 7%;
 }
 
 .dog {
-    width: 30%;
+    width: 25%;
     transform: rotate(20deg);
     position: absolute;
-    right: 20%;
+    right: 18%;
 }
 
 .navbar{
@@ -85,7 +85,6 @@ h3 {
 }
 
 .card{
-    text-align: center;
     margin:20px;
 }
 .icon-footer {
@@ -94,8 +93,7 @@ h3 {
 
 #features {
     background-color: #fff;
-    text-align: center;
-    padding: 3% 2%;
+    padding: 7% 15%;
     position: relative;
     z-index: 1;
 }
@@ -103,6 +101,7 @@ h3 {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    text-align: left;
 }
 
 #testimonials{
@@ -113,7 +112,6 @@ h3 {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -127,14 +125,12 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    padding: 100px;
-    text-align: center;
+    padding: 7% 15%;
 }
 
 #footer {
     background-color:#fff;
-    padding: 100px;
-    text-align: center;
+    padding: 7% 15%;
 }
 
 @media (max-width: 1080px) {
@@ -145,5 +141,11 @@ h3 {
     }
     #title {
         text-align: center;
+    }
+}
+
+@media (min-width: 1600px) {
+    .dog {
+        width: 20%;
     }
 }
